@@ -2,10 +2,10 @@
 summary: |
 Не работает поиск по ключевому слову
 environment: |
-6e8c852
+https://hexlet-products-store.vercel.app/
 steps-to-reproduce: |
-Вводим в поиск
-Ошибка 304 = Ничего не найдено
+1. Вводим в поиск - Тушь
+2. Ошибка 304 = Ничего не найдено
 expected-result: |
 На странице должны отображаться товары по ключевому слову
 actual-result: |
