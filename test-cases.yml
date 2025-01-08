@@ -1,72 +1,103 @@
 ---
 - summary: |
     Поиск по ключевому слову 
-  requirement: |
+requirement: |
     Можно искать товары по ключевому слову 
-  prerequisites: |
+prerequisites: |
     Открыт поиск
-  test-data: |
+test-data: |
     Поиск = любой товар
-  steps:
+steps:
     - Нажимаем на поиск
     - Ввести название любой товар 
-  expected-result: |
+expected-result: |
     Отображаются товары по ключевому слову
 
 - summary: |
     Фильтр по категории
-  requirement: |
+requirement: |
     Можно искать товары в фильтре по категории
-  prerequisites:
+prerequisites:
     Открыт фильтр 
-  test-data: |
+test-data: |
     Фильтр = категория
     Категория = любой товар
-  steps:
+steps:
     - Нажимаем на фильтр категории
     - Выбираем любую категорию из списка
-  expected-result: |
+expected-result: |
     Отображаются товары по категории 
 
 - summary: |
     Фильтр по бренду
-  requirement: |
+requirement: |
     Можно фильтровать по бренду
-  prerequisites:
+prerequisites:
     Открыта страница фильтр
-  test-data: |
+test-data: |
     Фильтр = бренд
-  steps:
-    - Выбираем любой бренд
-  expected-result: |
+steps:
+    - Выбираем в фильтре любой бренд 
+expected-result: |
     Отображаются товары по бренду
 
-    - summary: |
+- summary: |
     Фильтр по цене
-  requirement: |
+requirement: |
     Можно фильтровать по цене
-  prerequisites:
+prerequisites:
     Открыта страница фильтр 
-  test-data: |
+test-data: |
     Фильтр = цена
     Цена = From
     Цена = To
-  steps:
+steps:
     - Нажимаем на фильтр цены
     - Выбираем в From любую цену
     - Выбираем в To любую цену
-  expected-result: |
+expected-result: |
      Отображаются товары по цене
 
-     - summary: |
+- summary: |
     Фильтр по наличию
-  requirement: |
+requirement: |
     Можно фильтровать по наличию
-  prerequisites:
+prerequisites:
     Открыта страница фильтр
-  test-data: |
-    Фильтр = наличие
-  steps:
-    - Выбираем в наличии
-  expected-result: |
+test-data: |
+    Фильтр = в наличии
+steps:
+    - Нажимаем на фильтр в наличии
+expected-result: |
     Отображаются товары  по наличию
+
+- summary: |
+    Фильтр по бренду и по наличию
+requirement: |
+    Можно фильтровать по бренду и по наличию 
+prerequisites:
+    Открыта страница фильтр
+test-data: |
+    Фильтр = бренд
+    Фильтр = в наличии
+steps:
+    - Выбираем в фильтре любой бренд
+    - Выбираем в фильтре в наличии 
+expected-result: |
+    Отображаются товары по бренду и по наличию
+
+- summary: |
+    Добавление товаров в корзину
+requirement: |
+    Можно  добавлять товары в корзину
+prerequisites:
+     Открыта страница с любым товаром  
+test-data: |
+    Товар = добавить в корзину
+    Корзина = товар добавлен
+steps:
+    - Нажимаем на кнопку добавить в корзину
+    - Нажимаем на кнопку корзина
+expected-result: |
+    Товар доблен в корзину
+    
