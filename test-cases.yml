@@ -1,103 +1,147 @@
 ---
-- summary: |
+ - summary: |
     Поиск по ключевому слову 
-requirement: |
+  requirement: |
     Можно искать товары по ключевому слову 
-prerequisites: |
+  prerequisites: |
     Открыт поиск
-test-data: |
+  test-data: |
     Поиск = любой товар
-steps:
+  steps:
     - Нажимаем на поиск
     - Ввести название любой товар 
-expected-result: |
+  expected-result: |
     Отображаются товары по ключевому слову
 
-- summary: |
+ - summary: |
     Фильтр по категории
-requirement: |
+  requirement: |
     Можно искать товары в фильтре по категории
-prerequisites:
+  prerequisites:
     Открыт фильтр 
-test-data: |
+  test-data: |
     Фильтр = категория
     Категория = любой товар
-steps:
+  steps:
     - Нажимаем на фильтр категории
     - Выбираем любую категорию из списка
-expected-result: |
+  expected-result: |
     Отображаются товары по категории 
 
-- summary: |
+ - summary: |
     Фильтр по бренду
-requirement: |
+  requirement: |
     Можно фильтровать по бренду
-prerequisites:
+  prerequisites:
     Открыта страница фильтр
-test-data: |
+  test-data: |
     Фильтр = бренд
-steps:
+  steps:
     - Выбираем в фильтре любой бренд 
-expected-result: |
+  expected-result: |
     Отображаются товары по бренду
 
-- summary: |
+ - summary: |
     Фильтр по цене
-requirement: |
+  requirement: |
     Можно фильтровать по цене
-prerequisites:
+  prerequisites:
     Открыта страница фильтр 
-test-data: |
+  test-data: |
     Фильтр = цена
     Цена = From
     Цена = To
-steps:
+  steps:
     - Нажимаем на фильтр цены
     - Выбираем в From любую цену
     - Выбираем в To любую цену
-expected-result: |
+  expected-result: |
      Отображаются товары по цене
 
-- summary: |
+ - summary: |
     Фильтр по наличию
-requirement: |
+  requirement: |
     Можно фильтровать по наличию
-prerequisites:
+  prerequisites:
     Открыта страница фильтр
-test-data: |
+  test-data: |
     Фильтр = в наличии
-steps:
+  steps:
     - Нажимаем на фильтр в наличии 
-expected-result: |
+  expected-result: |
     Отображаются товары  по наличию
 
-- summary: |
+ - summary: |
     Фильтр по бренду и по наличию
-requirement: |
+  requirement: |
     Можно фильтровать по бренду и по наличию 
-prerequisites:
+  prerequisites:
     Открыта страница фильтр
-test-data: |
+  test-data: |
     Фильтр = бренд
     Фильтр = в наличии
-steps:
+  steps:
     - Выбираем в фильтре любой бренд
     - Выбираем в фильтре в наличии
-expected-result: |
+  expected-result: |
     Отображаются товары по бренду и по наличию
 
-- summary: |
+ - summary: |
     Добавление товаров в корзину
-requirement: |
+  requirement: |
     Можно  добавлять товары в корзину
-prerequisites:
+  prerequisites:
      Открыта страница с любым товаром  
-test-data: |
+  test-data: |
     Товар = добавить в корзину
     Корзина = товар добавлен
-steps:
+  steps:
     - Нажимаем на кнопку добавить в корзину
     - Нажимаем на кнопку корзина
-expected-result: |
+  expected-result: |
     Товар доблен в корзину
+
+ - summary: |
+    Удаление товара из корзины
+  requirement: |
+    Товар должен удалиться из корзины
+  prerequisites:
+    Открыта страница корзина, в корзине есть товары
+  test-data: |
+    Корзина - удаление
+  steps:
+    - Нажимаем на кнопку удалить
+  expected-result: |
+    Товар удалён из корзины
+
+ - summary: |
+    Продолжать выбирать товары в каталоге 
+  requirement: |
+    Можно продолжать выбирать товары в каталоге
+  prerequisites:
+    Открыта страница корзина
+  test-data: |
+    Корхина = продолжить покупки
+  steps:
+    - Нажимаем на кнопку продолжить покупки
+  expected-result: |
+   Открылась страница с каталогом
+
+ - summary: |
+    Оформление заказа с переходом на страницу оплаты
+  requirement: |
+    При оформлении заказа должен быть переход на страницу оплаты
+  prerequisites:
+    Открыта страница логина корзина
+  test-data: |
+    Оформление заказа = переход на страницу оплаты
+  steps:
+    - Нажимаем на кнопку оформить заказ
+  expected-result: |
+    Открылась страница оплаты
     
+
+
+    
+
+
