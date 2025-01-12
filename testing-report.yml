@@ -10,3 +10,119 @@
 - summary: |
     Фильтр по категории в браузере Chrome  
   status: pass
+
+- summary: |
+    Фильтр по бренду в браузере Chrome 
+  status: pass
+
+- summary: |
+    Фильтр по цене в браузере Chrome
+  status: pass
+
+- summary: |
+    Фильтр по наличию в браузере Chrome 
+  status: pass
+
+- summary: |
+    Фильтр по бренду и по наличию в браузере Chrome
+  status: pass
+
+- summary: |
+    Общее отображение товаров с рейтингом в каталоге, в браузере Chrome
+  status: fail
+
+- summary: |
+    Общее отображение товаров с ценой со скидкой в каталоге, в браузере Chrome
+  status: pass
+
+- summary: |
+    Общее отображение товаров с ценой без скидки в каталоге, в браузере Chrome 
+  status: pass
+
+- summary: |
+    Общее отображение страницы товара с название в браузере Chrome 
+  status: pass
+
+- summary: |
+    Общее отображение страницы товара с рейтингом в браузере Chrome 
+  status: pass
+
+- summary: |
+    Общее отображение страницы товара с сценой со скидкой в браузере Chrome 
+  status: pass
+
+- summary: |
+    Общее отображение страницы товара с ценой без скидки в браузере Chrome
+  status: pass
+
+- summary: |
+    Добавление товаров в корзину через каталог в браузере Chrome 
+  status: pass
+
+- summary: |
+    Добавление товаров в корзину через страницу товара в браузере Chrome  
+  status: pass
+
+- summary: |
+    Добавление нескольких товаров одинаковых в корзину через каталог в браузере Chrome
+  status: pass
+
+- summary: |
+    Добавление нескольких товаров одинаковых в корзину через страницу товара в браузере Chrome 
+  status: pass
+
+- summary: |
+    Добавление нескольких разных товаров в корзину через каталог в браузере Chrome 
+  status: pass
+
+- summary: |
+    Навигация на страницу магазина в браузере Chrome 
+  status: pass
+
+- summary: |
+    Изменение на Russian язык по навигаци в браузере Chrome  
+  status: pass
+
+- summary: |
+    Изменение на Russian язык по навигаци в браузере Chrome  
+  status: pass
+
+- summary: |
+    Просмотр содержимого в корзине в браузере Chrome  
+  status: pass
+
+- summary: |
+    Продолжать выбирать товары в каталоге в браузере Chrome  
+  status: pass
+
+- summary: |
+    Удаление товара из корзины в браузере Chrome  
+  status: pass
+
+- summary: |
+    Очистка корзнины в браузере Chrome  
+  status: pass
+
+- summary: |
+    Оформление заказа с переходом на страницу оплаты в браузере Chrome  
+  status: fail
+
+- summary: |
+    Корзина храниться в сессии браузера Chrome 
+  status: fail
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+  
+
+
+
