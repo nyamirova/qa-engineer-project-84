@@ -109,7 +109,79 @@
 
 - summary: |
     Корзина храниться в сессии браузера Chrome 
+  status: pass
+
+- summary: |
+    Поиск по ключевому слову в браузере Firefox
+  status: pass
+
+- summary: |
+    Поиск по ключевому слову с несуществующим товаром в браузере Firefox
+  status: pass
+
+- summary: |
+    Фильтр по категории в браузере Firefox
+  status: pass
+
+- summary: |
+    Фильтр по бренду в браузере Firefox 
+  status: pass
+
+- summary: |
+    Фильтр по цене в браузере Firefox 
+  status: pass
+
+- summary: |
+    Фильтр по наличию в браузере Firefox
+  status: pass
+
+- summary: |
+    Фильтр по бренду и по наличию в браузере Firefox
+  status: pass
+
+- summary: |
+    Общее отображение товаров с названием в каталоге в браузере Firefox 
+  status: pass
+
+- summary: |
+    Общее отображение товаров с рейтингом в каталоге в браузере Firefox 
   status: fail
+
+- summary: |
+    Общее отображение товаров с ценой со скидкой в каталоге в браузере Firefox 
+  status: pass
+
+- summary: |
+    Общее отображение товаров с ценой без скидки в каталоге в браузере Firefox 
+  status: pass
+
+- summary: |
+    Общее отображение страницы товара с название в браузере Firefox
+  status: pass
+
+- summary: |
+    Общее отображение страницы товара с рейтингом в браузере Firefox
+  status: pass
+
+- summary: |
+    Общее отображение страницы товара с сценой со скидкой в браузере Firefox
+  status: pass
+
+- summary: |
+    Общее отображение страницы товара с ценой без скидки в браузере Firefox
+  status: pass
+
+- summary: |
+    Добавление товаров в корзину через каталог в браузере Firefox
+  status: pass
+  
+  
+
+  
+
+
+
+
 
 
   
