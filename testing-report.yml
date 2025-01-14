@@ -229,7 +229,7 @@
 
 - summary: |
     Оформление заказа с переходом на страницу оплаты в браузере Firefox
-  status: fill
+  status: pass
 
 - summary: |
     Корзина храниться в сессии браузера Firefox
