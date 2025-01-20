@@ -357,9 +357,11 @@
 
 - summary: |
     Общее отображение страницы товара с помощью devtools
-  status:
-  
+  status: pass
 
+- summary: |
+    Общее отображение страницы товара с помощью devtools
+  status: pass
 
 
 
