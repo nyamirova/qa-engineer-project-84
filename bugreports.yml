@@ -2,7 +2,7 @@
 - summary: |
     Не отображается общее товаров с рейтингом в каталоге в браузере Chrome
   environment: |
-    
+    bug products with rating.jpg
   steps-to-reproduce: |
     1. Открыта страница каталога
     2. Смотрим на любые товары
@@ -14,7 +14,7 @@
 - summary: |
      Нет кнопки для оформления заказа с переходом на страницу оплаты в браузере Chrome
   environment: |
-    баг оплата.jpg
+    bug payment.jpg
   steps-to-reproduce: |
     1. В корзине есть товары
     2. Открыта страница корзина 
