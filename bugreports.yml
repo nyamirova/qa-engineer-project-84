@@ -2,17 +2,17 @@
 - summary: |
     Не отображается общее товаров с рейтингом в каталоге в браузере Chrome
   environment: |
-    bug products with rating.jpg
+    bug products with rating Chrome.jpg
   steps-to-reproduce: |
     1. Открыта страница каталога
     2. Смотрим на любые товары
   expected-result: |
-     Открылась страница оплаты
-  actual-result: |
     Отображаются товары с рейтингом
-    
+  actual-result: |
+    Не отображаются товары с рейтингом
+
 - summary: |
-     Нет кнопки для оформления заказа с переходом на страницу оплаты в браузере Chrome
+    Нет кнопки для оформления заказа с переходом на страницу оплаты в браузере Chrome
   environment: |
     bug payment.jpg
   steps-to-reproduce: |
@@ -23,5 +23,17 @@
      Открылась страница оплаты
   actual-result: |
     Нет кнопки на оформление заказа с переходом на страницу оплаты
+
+- summary: |
+    Не отображается общее товаров с рейтингом в каталоге в браузере Firefox 
+  environment: |
+    bug products with rating Firefox.jpg
+  steps-to-reproduce: |
+    1. Открыта страница каталога
+    2. Смотрим на любые товары
+  expected-result: |
+    Отображаются товары с рейтингом
+  actual-result: |
+    Не отображаются товары с рейтингом
     
 
