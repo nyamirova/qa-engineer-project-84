@@ -363,6 +363,39 @@
     Общее отображение страницы товара с помощью devtools
   status: pass
 
+- summary: |
+    Добавление нескольких одинаковых товаров в корзину с помощью devtools
+  status: pass
+
+- summary: |
+    Добавление нескольких разных товаров в корзину с помощью devtools
+  status: pass
+
+- summary: |
+    Навигация на страницу магазина с помощью devtools
+  status: pass
+
+- summary: |
+    Навигация на страницу корзины с помощью devtools
+  status: fail
+
+- summary: |
+    Удаление товара из корзины с помощью devtools
+  status: fail
+
+- summary: |
+    Очистка корзнины с помощью devtools
+  status: fail
+
+- summary: |
+    Продолжать выбирать товары в каталоге с помощью devtools 
+  status: pass
+
+- summary: |
+    Оформление заказа с переходом на страницу оплаты с помощью devtools 
+  status: fail
+
+
 
 
  
