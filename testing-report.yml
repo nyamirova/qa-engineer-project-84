@@ -360,10 +360,6 @@
   status: pass
 
 - summary: |
-    Общее отображение страницы товара с помощью devtools
-  status: pass
-
-- summary: |
     Добавление нескольких одинаковых товаров в корзину с помощью devtools
   status: pass
 
