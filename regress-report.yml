@@ -22,10 +22,6 @@ test-cases:
 
   - summary: |
       Фильтр по наличию в браузере Chrome
-    status: pass
-
-  - summary: |
-      Фильтр по наличию в браузере Chrome
     status: fail
 
   - summary: |
@@ -409,6 +405,7 @@ test-cases:
     status: fail
 
     bugreports:
+    
   - summary: |
       Поиск по ключевому слову с несуществующим товаром в браузере Chrome
     environment: |
@@ -422,6 +419,30 @@ test-cases:
     actual-result: |
       Не отображается ошибка в сообщении "ничего не найдено"
 
+  - summary: |
+      Фильтр по наличию в браузере Chrome
+    environment: |
+      bug 2 available.jpg
+      bug 2 out of stock.jpg
+    steps-to-reproduce: |
+      - Открыть страницу фильтр
+      - Нажимаем на фильтр в наличии
+    expected-result: |
+      Отображаются товары  по наличию
+    actual-result: |
+      Не корректно рабатает фильтр по наличию, не отображаются товары  по наличию
+
+  - summary: |
+      Общее отображение товаров с рейтингом в каталоге в браузере Chrome
+    environment: |
+      bug 2 rating.jpg
+    steps-to-reproduce: |
+      - Открыть страницу каталога
+      - Смотрим на любые товары
+    expected-result: |
+      Отображаются товары с рейтингом
+    actual-result: |
+      Не отображаются товары с рейтингом
   
 
     
