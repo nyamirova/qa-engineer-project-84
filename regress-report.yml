@@ -370,7 +370,23 @@ test-cases:
 
   - summary: |
       Общее отображение страницы товара с помощью devtools
-    status: fail
+    status: pass
+
+  - summary: |
+      Добавление нескольких одинаковых товаров в корзину с помощью devtools
+    status: pass
+
+  - summary: |
+      Добавление нескольких разных товаров в корзину с помощью devtools
+    status: pass
+
+  - summary: |
+      Навигация на страницу магазина с помощью devtools
+    status: pass
+
+  - summary: |
+      Навигация на страницу корзины с помощью devtools
+    status: pass
 
    
   
