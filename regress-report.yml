@@ -143,6 +143,40 @@ test-cases:
   - summary: |
       Фильтр по цене в браузере Firefox
     status: pass
+
+  - summary: |
+      Фильтр по наличию в браузере Firefox
+    status: fail
+
+  - summary: |
+      Фильтр по наличию в браузере Firefox
+    status: fail
+
+  - summary: |
+      Фильтр по бренду и по наличию в браузере Firefox
+    status: pass
+
+  - summary: |
+      Общее отображение товаров с названием в каталоге в браузере Firefox
+    status: pass
+
+  - summary: |
+      Общее отображение товаров с рейтингом в каталоге в браузере Firefox
+    status: fail
+
+  - summary: |
+      Общее отображение товаров с ценой со скидкой в каталоге в браузере Firefox
+    status: pass
+
+  - summary: |
+      Общее отображение товаров с ценой без скидки в каталоге в браузере Firefox 
+    status: pass
+
+  - summary: |
+      Общее отображение страницы товара с название в браузере Firefox 
+    status: pass
+
+  
     
 
  
