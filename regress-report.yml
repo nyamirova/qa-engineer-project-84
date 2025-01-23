@@ -412,7 +412,7 @@ test-cases:
   - summary: |
       Поиск по ключевому слову с несуществующим товаром в браузере Chrome
     environment: |
-      
+      bug 2 search.jpg
     steps-to-reproduce: |
       - Нажимаем на поиск
       - Ввести название любого несуществующего товара
