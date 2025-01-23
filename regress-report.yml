@@ -114,7 +114,7 @@ test-cases:
 
   - summary: |
       Очистка корзнины в браузере Chrome  
-    status: pass
+    status: fail
 
   - summary: |
       Оформление заказа с переходом на страницу оплаты в браузере Chrome  
