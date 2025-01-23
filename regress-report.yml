@@ -404,8 +404,7 @@ test-cases:
       Оформление заказа с переходом на страницу оплаты с помощью devtools
     status: fail
 
-    bugreports:
-    
+  bugreports:  
   - summary: |
       Поиск по ключевому слову с несуществующим товаром в браузере Chrome
     environment: |
