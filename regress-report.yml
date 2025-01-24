@@ -8,30 +8,30 @@ test-cases:
       Поиск по ключевому слову в браузере Chrome
     status: pass
 
- bugreports: []
+bugreports: []
   
- test-cases:
-   - summary: |
-       Поиск по ключевому слову с несуществующим товаром в браузере Chrome 
+test-cases:
+  - summary: |
+      Поиск по ключевому слову с несуществующим товаром в браузере Chrome 
      status: pass
     
-   - summary: |
-       Поиск по ключевому слову с несуществующим товаром в браузере Chrome
-     status: fail
+  - summary: |
+      Поиск по ключевому слову с несуществующим товаром в браузере Chrome
+    status: fail
 
-  bugreports: 
-    - summary: |
-        Поиск по ключевому слову с несуществующим товаром в браузере Chrome
-      environment: |
-        bug 2 search.jpg
-      steps-to-reproduce: |
-        1. Нажимаем на поиск
-        2. Ввести название любого несуществующего товара
-        3. Должна отображатся ошибка "нечего не найдено"
-      expected-result: |
-        Отображается сообщение "ничего не найдено"
-      actual-result: |
-        Не отображается ошибка в сообщении "ничего не найдено"
+bugreports: 
+  - summary: |
+      Поиск по ключевому слову с несуществующим товаром в браузере Chrome
+    environment: |
+      bug 2 search.jpg
+    steps-to-reproduce: |
+      1. Нажимаем на поиск
+      2. Ввести название любого несуществующего товара
+      3. Должна отображатся ошибка "нечего не найдено"
+    expected-result: |
+      Отображается сообщение "ничего не найдено"
+    actual-result: |
+      Не отображается ошибка в сообщении "ничего не найдено"
       
 test-cases:
   - summary: |
@@ -76,18 +76,18 @@ test-cases:
     status: fail
     
 bugreports:
-   - summary: |
-       Фильтр по наличию в браузере Chrome
-     environment: |
-       bug 2 available.jpg
-       bug 2 out of stock.jpg
-     steps-to-reproduce: |
-       1. Открыть страницу фильтр
-       2. Нажимаем на фильтр в наличии
-     expected-result: |
-       Отображаются товары  по наличию
-     actual-result: |
-       Не корректно рабатает фильтр по наличию, не отображаются товары  по наличию
+  - summary: |
+      Фильтр по наличию в браузере Chrome
+    environment: |
+      bug 2 available.jpg
+      bug 2 out of stock.jpg
+    steps-to-reproduce: |
+      1. Открыть страницу фильтр
+      2. Нажимаем на фильтр в наличии
+    expected-result: |
+      Отображаются товары  по наличию
+    actual-result: |
+      Не корректно рабатает фильтр по наличию, не отображаются товары  по наличию
        
 test-cases:
   - summary: |
@@ -98,51 +98,71 @@ test-cases:
       Фильтр по бренду и по наличию в браузере Chrome
     status: pass
 
- bugreports: []
+bugreports: []
 
-- summary: |
-    Общее отображение товаров с рейтингом в каталоге в браузере Chrome
-  status: fail
+test-cases:
+  - summary: |
+      Общее отображение товаров с рейтингом в каталоге в браузере Chrome
+    status: fail
 
-- summary: |
-    Общее отображение товаров с рейтингом в каталоге в браузере Chrome
-  environment: |
-    bug 2 rating.jpg
-  steps-to-reproduce: |
-    1. Открыть страницу каталога
-    2. Смотрим на любые товары
-  expected-result: |
-    Отображаются товары с рейтингом
-  actual-result: |
-    Не отображаются товары с рейтингом
+  - summary: |
+      Общее отображение товаров с рейтингом в каталоге в браузере Chrome
+    status: fail
+    
+bugreports:
+  - summary: |
+      Общее отображение товаров с рейтингом в каталоге в браузере Chrome
+     environment: |
+       bug 2 rating.jpg
+     steps-to-reproduce: |
+       1. Открыть страницу каталога
+       2. Смотрим на любые товары
+     expected-result: |
+       Отображаются товары с рейтингом
+     actual-result: |
+       Не отображаются товары с рейтингом
+       
+test-cases:
+  - summary: |
+      Общее отображение товаров с ценой со скидкой в каталоге в браузере Chrome
+    status: pass
 
-- summary: |
-    Общее отображение товаров с ценой со скидкой в каталоге в браузере Chrome
-  status: pass
+  - summary: |
+      Общее отображение товаров с ценой со скидкой в каталоге в браузере Chrome
+    status: pass
 
 bugreports: []
 
-- summary: |
-    Общее отображение товаров с ценой без скидки в каталоге в браузере Chrome
-  status: pass
+test-cases:
+  - summary: |
+      Общее отображение товаров с ценой без скидки в каталоге в браузере Chrome
+    status: pass
+
+  - summary: |
+      Общее отображение товаров с ценой без скидки в каталоге в браузере Chrome 
+    status: pass
 
 bugreports: []
 
-- summary: |
-    Общее отображение страницы товара с название в браузере Chrome
-  status: pass
+test-cases:
+  - summary: |
+      Общее отображение страницы товара с название в браузере Chrome
+    status: pass
+
+  - summary: |
+      Общее отображение страницы товара с название в браузере Chrome 
+    status: pass
 
 bugreports: []
 
-- summary: |
-    Общее отображение страницы товара с название в браузере Chrome
-  status: pass
+test-cases:
+  - summary: |
+      Общее отображение страницы товара с рейтингом в браузере Chrome 
+    status: pass
 
-bugreports: []
-
-- summary: |
-    Общее отображение страницы товара с рейтингом в браузере Chrome 
-  status: pass
+  - summary: |
+      Общее отображение страницы товара с рейтингом в браузере Chrome 
+    status: pass
   
 bugreports: []
 
