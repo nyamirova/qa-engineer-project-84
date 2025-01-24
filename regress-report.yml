@@ -404,7 +404,8 @@ test-cases:
       Оформление заказа с переходом на страницу оплаты с помощью devtools
     status: fail
 
-  bugreports:  
+  bugreports: [] 
+
   - summary: |
       Поиск по ключевому слову с несуществующим товаром в браузере Chrome
     environment: |
@@ -417,6 +418,14 @@ test-cases:
       Отображается сообщение "ничего не найдено"
     actual-result: |
       Не отображается ошибка в сообщении "ничего не найдено"
+
+  bugreports: []
+
+  bugreports: []
+
+  bugreports: []
+
+  bugreports: []
 
   - summary: |
       Фильтр по наличию в браузере Chrome
