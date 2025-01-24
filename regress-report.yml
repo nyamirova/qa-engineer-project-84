@@ -13,7 +13,7 @@ bugreports: []
 test-cases:
   - summary: |
       Поиск по ключевому слову с несуществующим товаром в браузере Chrome 
-     status: pass
+    status: pass
      
   - summary: |
       Поиск по ключевому слову с несуществующим товаром в браузере Chrome
