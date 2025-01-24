@@ -84,11 +84,15 @@
   status: pass
 
 - summary: |
+    Навигация на страницу корзина в браузере Chrome
+  status: pass
+  
+- summary: |
     Изменение на Russian язык по навигаци в браузере Chrome  
   status: pass
 
 - summary: |
-    Изменение на Russian язык по навигаци в браузере Chrome  
+    Изменение на  английский язык по навигаци в браузере Chrome  
   status: pass
 
 - summary: |
@@ -128,7 +132,7 @@
   status: pass
 
 - summary: |
-    Фильтр по бренду в браузере Firefox 
+    Фильтр по бренду в браузере Firefox
   status: pass
 
 - summary: |
@@ -201,6 +205,10 @@
 
 - summary: |
     Навигация на страницу магазина в браузере Firefox
+  status: pass
+
+- summary: |
+    Навигация на страницу корзина в браузере Firefox
   status: pass
 
 - summary: |
