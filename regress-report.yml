@@ -1,6 +1,5 @@
 ---
-test-cases:
-  - summary: |
+ - summary: |
       Поиск по ключевому слову в браузере Chrome
   status: pass
 
