@@ -1,4 +1,4 @@
----
+--
 name: Natalia
 job: QA Engineer
 level: junior
@@ -8,8 +8,8 @@ description: |
   “A Practitioner's Guide to Software Test Design”
 skills:
   - осуществляю ручное тестирование
-  - пишу тест-кейсы и составляю чек-листы
-  - написание багрепортов
+  - пишу тест - кейсы и составляю чек - листы
+  - написание баг репортов
   - работаю с DevTools, Postman, Git, Linux
   - понимаю принцип работы базы данных
   - создаю SQL-запросы
