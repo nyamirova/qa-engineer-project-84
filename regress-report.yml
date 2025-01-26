@@ -27,7 +27,7 @@ bugreports:
     steps-to-reproduce: |
       1. Нажимаем на поиск
       2. Ввести название любого несуществующего товара
-      3. Должна отображатся ошибка "нечего не найдено"
+      3. Должна отображаться ошибка "нечего не найдено"
     expected-result: |
       Отображается сообщение "ничего не найдено"
     actual-result: |
@@ -89,7 +89,7 @@ bugreports:
     expected-result: |
       Отображаются товары  по наличию
     actual-result: |
-      Не корректно рабатает фильтр по наличию, не отображаются товары  по наличию
+      Не корректно работает фильтр по наличию, не отображаются товары  по наличию
     
 bugreports:
   
@@ -151,11 +151,11 @@ bugreports: []
 
 test-cases:
   - summary: |
-      Общее отображение страницы товара с название в браузере Chrome
+      Общее отображение страницы товара с названием в браузере Chrome
     status: pass
 
   - summary: |
-      Общее отображение страницы товара с название в браузере Chrome 
+      Общее отображение страницы товара с названием в браузере Chrome 
     status: pass
 
 bugreports: []
@@ -173,11 +173,11 @@ bugreports: []
 
 test-cases:
   - summary: |
-      Общее отображение страницы товара с сценой со скидкой в браузере Chrome 
+      Общее отображение страницы товара со сценой со скидкой в браузере Chrome 
     status: pass
 
   - summary: |
-      Общее отображение страницы товара с сценой со скидкой в браузере Chrome 
+      Общее отображение страницы товара со сценой со скидкой в браузере Chrome 
     status: pass
 
 bugreports: []
@@ -282,22 +282,22 @@ bugreports: []
  
 test-cases:
    - summary: |
-       Изменение на Russian язык по навигаци в браузере Chrome
+       Изменение на Russian язык по навигации в браузере Chrome
      status: pass
 
    - summary: |
-       Изменение на Russian язык по навигаци в браузере Chrome  
+       Изменение на Russian язык по навигации в браузере Chrome  
      status: pass
 
 bugreports: []
 
 test-cases:
   - summary: |
-      Изменение на  английский язык по навигаци в браузере Chrome  
+      Изменение на  английский язык по навигации в браузере Chrome  
     status: pass
 
   - summary: |
-      Изменение на  английский язык по навигаци в браузере Chrome  
+      Изменение на  английский язык по навигации в браузере Chrome  
     status: pass
 
 bugreports: []
@@ -337,11 +337,11 @@ bugreports: []
 
 test-cases:
   - summary: |
-      Очистка корзнины в браузере Chrome  
+      Очистка корзины в браузере Chrome  
     status: pass
 
   - summary: |
-      Очистка корзнины в браузере Chrome  
+      Очистка корзины в браузере Chrome  
     status: pass
 
 bugreports: []
@@ -409,7 +409,7 @@ test-cases:
      steps-to-reproduce: |
        1. Нажимаем на поиск
        2. Ввести название любого несуществующего товара
-       3. Должна отображатся ошибка "нечего не найдено"
+       3. Должна отображаться ошибка "нечего не найдено"
      expected-result: |
        Отображается сообщение "ничего не найдено"
      actual-result: |
@@ -472,7 +472,7 @@ bugreports:
     expected-result: |
       Отображаются товары  по наличию
     actual-result: |
-      Не корректно рабатает фильтр по наличию, не отображаются товары  по наличию
+      Не корректно работает фильтр по наличию, не отображаются товары  по наличию
       
 test-cases:
   - summary: |
@@ -507,7 +507,7 @@ test-cases:
 
 bugreports:
   - summary: |
-      В  каталоге не отображаются товары с рейтингом в браузере Chrome
+      В  каталоге не отображаются товары с рейтингом в браузере Firefox 
     environment: |
       bug 2 сhrome rating.jpg
     steps-to-reproduce: |
@@ -543,11 +543,11 @@ bugreports: []
 
 test-cases:
   - summary: |
-      Общее отображение страницы товара с название в браузере Firefox 
+      Общее отображение страницы товара с названием в браузере Firefox 
     status: pass
 
   - summary: |
-      Общее отображение страницы товара с название в браузере Firefox
+      Общее отображение страницы товара с названием в браузере Firefox
     status: pass
 
 bugreports: []
@@ -565,11 +565,11 @@ bugreports: []
 
 test-cases:
   - summary: |
-      Общее отображение страницы товара с сценой со скидкой в браузере Firefox
+      Общее отображение страницы товара со сценой со скидкой в браузере Firefox
     status: pass
 
   - summary: |
-      Общее отображение страницы товара с сценой со скидкой в браузере Firefox
+      Общее отображение страницы товара со сценой со скидкой в браузере Firefox
     status: pass
 
 bugreports: []
@@ -675,22 +675,22 @@ bugreports: []
 
 test-cases:
   - summary: |
-      Изменение на Russian язык по навигаци в браузере Firefox
+      Изменение на Russian язык по навигации в браузере Firefox
     status: pass
 
   - summary: |
-      Изменение на Russian язык по навигаци в браузере Firefox
+      Изменение на Russian язык по навигации в браузере Firefox
     status: pass
 
 bugreports: []
 
 test-cases:
   - summary: |
-      Изменение на English язык по навигаци в браузере Firefox
+      Изменение на English язык по навигации в браузере Firefox
     status: pass
 
   - summary: |
-      Изменение на English язык по навигаци в браузере Firefox 
+      Изменение на English язык по навигации в браузере Firefox 
     status: pass
 
 bugreports: []
@@ -730,11 +730,11 @@ bugreports: []
 
 test-cases:
   - summary: |
-      Очистка корзнины в браузере Firefox
+      Очистка корзины в браузере Firefox
     status: pass
   
   - summary: |
-      Очистка корзнины в браузере Firefox
+      Очистка корзины в браузере Firefox
     status: pass
 
 bugreports: []
