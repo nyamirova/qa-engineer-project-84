@@ -42,7 +42,7 @@ test-cases:
 
   - summary: |
        Общее отображение страницы товара с названием в браузере Chrome 
-     status: pass
+    status: pass
 
   - summary: |
       Общее отображение страницы товара с рейтингом в браузере Chrome 
