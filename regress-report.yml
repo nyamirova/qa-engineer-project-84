@@ -9,7 +9,7 @@ test-cases:
     status: fail
 
   - summary: |
-       Фильтр по категории в браузере Chrome  
+      Фильтр по категории в браузере Chrome  
     status: pass
 
   - summary: |
@@ -29,7 +29,7 @@ test-cases:
     status: pass
 
   - summary: |
-       Общее отображение товаров с рейтингом в каталоге в браузере Chrome
+      Общее отображение товаров с рейтингом в каталоге в браузере Chrome
     status: fail
 
   - summary: |
@@ -41,7 +41,7 @@ test-cases:
     status: pass
 
   - summary: |
-       Общее отображение страницы товара с названием в браузере Chrome 
+      Общее отображение страницы товара с названием в браузере Chrome 
     status: pass
 
   - summary: |
