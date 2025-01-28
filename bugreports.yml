@@ -87,7 +87,9 @@
 - summary: |
     Не очищается корзина в сессии браузера
   environment: |
-    session clearing bug.jpg
+    Google Chrome   123.0.6312.86 (Официальная сборка), (64 бит) 
+    ОС Windows 11
+    Devtools
   steps-to-reproduce: |
     1. В корзине есть товары
     2. Открыта странца корзина
@@ -102,7 +104,9 @@
 - summary: |
     Не уходит запрос на сервис при переходе на страницу оплаты
   environment: |
-    payment request bug.jpg
+    Google Chrome   123.0.6312.86 (Официальная сборка), (64 бит) 
+    ОС Windows 11
+    Devtools
   steps-to-reproduce: |
     1. Открыть страница корзина
     2. Открыть devtools
