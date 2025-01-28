@@ -1,28 +1,28 @@
 ---
 test-cases:
-  - summary: |
+   - summary: |
       Поиск по ключевому слову в браузере Chrome
     status: pass
      
-  - summary: |
-      Поиск по ключевому слову с несуществующим товаром в браузере Chrome
-    status: fail
+   - summary: |
+       Поиск по ключевому слову с несуществующим товаром в браузере Chrome
+     status: fail
 
-  - summary: |
-      Фильтр по категории в браузере Chrome  
-    status: pass
+   - summary: |
+       Фильтр по категории в браузере Chrome  
+     status: pass
 
-  - summary: |
+   - summary: |
       Фильтр по бренду в браузере Chrome
-    status: pass
+     status: pass
 
-  - summary: |
-      Фильтр по цене в браузере Chrome
-    status: pass
+   - summary: |
+       Фильтр по цене в браузере Chrome
+     status: pass
 
-  - summary: |
-      Фильтр по наличию в браузере Chrome
-    status: fail
+   - summary: |
+       Фильтр по наличию в браузере Chrome
+     status: fail
 
   - summary: |
       Фильтр по бренду и по наличию в браузере Chrome
@@ -76,21 +76,21 @@ test-cases:
        Добавление нескольких разных товаров в корзину через каталог в браузере Chrome 
      status: pass
 
-- summary: |
-    Добавление нескольких разных товаров в корзину через страницу товара в браузере Chrome 
-  status: pass
+  - summary: |
+      Добавление нескольких разных товаров в корзину через страницу товара в браузере Chrome 
+    status: pass
     
-- summary: |
+  - summary: |
       Навигация на страницу магазина в браузере Chrome 
     status: pass
 
-- summary: |
+  - summary: |
       Навигация на страницу корзина в браузере Chrome
     status: pass
 
-   - summary: |
-       Изменение на Russian язык по навигации в браузере Chrome  
-     status: pass
+  - summary: |
+      Изменение на Russian язык по навигации в браузере Chrome  
+    status: pass
 
   - summary: |
       Изменение на  английский язык по навигации в браузере Chrome  
@@ -157,8 +157,8 @@ test-cases:
     status: fail
 
   - summary: |
-    Общее отображение товаров с ценой со скидкой в каталоге в браузере Firefox 
-  status: pass
+      Общее отображение товаров с ценой со скидкой в каталоге в браузере Firefox 
+    status: pass
 
   - summary: |
       Общее отображение товаров с ценой без скидки в каталоге в браузере Firefox 
@@ -238,7 +238,7 @@ test-cases:
 
   - summary: |
       Корзина храниться в сессии браузера Firefox
-  status: pass
+    status: pass
 
   - summary: |
       Поиск по ключевому слову на мобильном устройстве
