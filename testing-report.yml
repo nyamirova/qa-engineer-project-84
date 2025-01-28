@@ -92,11 +92,11 @@
   status: pass
   
 - summary: |
-    Проверка изменения на русский язык по навигиции в Google Chrome  
+    Проверка изменения на русский язык по навигации в Google Chrome  
   status: pass
 
 - summary: |
-     Проверка изменения на английский язык по навигаци в Google Chrome  
+     Проверка изменения на английский язык по навигации в Google Chrome  
   status: pass
 
 - summary: |
@@ -112,7 +112,7 @@
   status: pass
 
 - summary: |
-    Проверка очистки корзнины в Google Chrome 
+    Проверка очистки корзины в Google Chrome 
   status: pass
 
 - summary: |
@@ -224,7 +224,7 @@
   status: pass
 
 - summary: |
-    Проверка просмотра содержимого в корзинев Firefox
+    Проверка просмотра содержимого в корзине в Firefox
   status: pass
 
 - summary: |
@@ -344,7 +344,7 @@
   status: pass
 
 - summary: |
-    Проверка изменения на русский язык по навигиции на iPhone 
+    Проверка изменения на русский язык по навигации на iPhone 
   status: pass
 
 - summary: |
@@ -364,7 +364,7 @@
   status: pass
 
 - summary: |
-    Проверка очистки корзнины на iPhone
+    Проверка очистки корзины на iPhone
   status: pass
 
 - summary: |
