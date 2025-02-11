@@ -29,7 +29,7 @@
 
 - summary: |
     Проверка отображения товаров на странице каталога в Google Chrome
-  status: pass
+  status: fail
 
 - summary: |
     Проверка добавления товаров в корзину через каталог в Google Chrome
@@ -125,7 +125,7 @@
 
 - summary: |
      Проверка отображения товаров на странице каталога в Firefox 
-  status: pass
+  status: fail
 
 - summary: |
     Проверка добавления товаров в корзину через каталог в Firefox
@@ -221,7 +221,7 @@
 
 - summary: |
     Проверка отображения товаров на странице каталога на iPhone
-  status: pass
+  status: fail
 
 - summary: |
     Проверка добавления товаров в корзину через каталог на iPhone
