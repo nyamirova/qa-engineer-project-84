@@ -69,7 +69,7 @@
 
 - summary: |
      Проверка изменения на английский язык по навигации в Google Chrome  
-  status: pass
+  status: fail
 
 - summary: |
     Проверка просмотра содержимого в корзине в Google Chrome  
@@ -165,7 +165,7 @@
 
 - summary: |
     Проверка изменения на английский язык по навигации в Firefox 
-  status: pass
+  status: fail
 
 - summary: |
     Проверка просмотра содержимого в корзине в Firefox
@@ -261,7 +261,7 @@
 
 - summary: |
     Проверка изменения на английский язык по навигации на iPhone
-  status: pass
+  status: fail
 
 - summary: |
     Проверка просмотра содержимого в корзине на iPhone
