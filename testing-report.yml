@@ -340,10 +340,6 @@
   status: fail
 
 - summary: |
-    Удаление товаров из корзины в сессии браузера в Google Chrome с помощью devtools
-  status: pass
-
-- summary: |
     Проверка возможности продолжать выбирать товары в каталоге в Google Chrome с помощью devtools
   status: pass
 
