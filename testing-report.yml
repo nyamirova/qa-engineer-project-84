@@ -344,10 +344,6 @@
   status: pass
 
 - summary: |
-    Очистка корзины в сессии браузера в Google Chrome с помощью devtools
-  status: fail
-
-- summary: |
     Проверка возможности продолжать выбирать товары в каталоге в Google Chrome с помощью devtools
   status: pass
 
