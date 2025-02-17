@@ -200,7 +200,7 @@
   status: pass
 
 - summary: |
-    Проверка удаления товара из корзины вFirefox
+    Проверка удаления товара из корзины в Firefox
   status: pass
 
 - summary: |
