@@ -344,6 +344,10 @@
   status: pass
 
 - summary: |
+    Проверка запроса и ответа  при оформлении заказа через devtools
+  status: pass
+
+- summary: |
     Проверка навигации на страницу магазина в Google Chrome с помощью devtools
   status: pass
 
