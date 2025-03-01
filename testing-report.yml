@@ -92,10 +92,6 @@
   status: fail
 
 - summary: |
-    Проверка просмотра содержимого в корзине в Google Chrome  
-  status: pass
-
-- summary: |
     Проверка возможности продолжать выбирать товары в каталоге в Google Chrome 
   status: pass
 
@@ -208,10 +204,6 @@
   status: fail
 
 - summary: |
-    Проверка просмотра содержимого в корзине в Firefox
-  status: pass
-
-- summary: |
     Проверка возможности продолжать выбирать товары в каталоге в Firefox
   status: pass
 
@@ -322,10 +314,6 @@
 - summary: |
     Проверка изменения на английский язык по навигации на странице товара на iPhone
   status: fail
-
-- summary: |
-    Проверка просмотра содержимого в корзине на iPhone
-  status: pass
 
 - summary: |
     Проверка возможности продолжать выбирать товары в каталоге на iPhone
