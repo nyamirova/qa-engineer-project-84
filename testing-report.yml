@@ -353,7 +353,7 @@
 
 - summary: |
     Проверка навигации на страницу корзина в Google Chrome с помощью devtools
-  status: fail
+  status: pass
 
 - summary: |
     Проверка возможности продолжать выбирать товары в каталоге в Google Chrome с помощью devtools
